@@ -1,0 +1,14 @@
+#sidebar-stuff
+{
+  /* don't touch that edge */
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  /* not so wide */
+  max-width: 10rem;
+  float: left;
+}
+.card,.jumbotron
+{
+  /* get rid of border radius */
+  border-radius: unset;
+}

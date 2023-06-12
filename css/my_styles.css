@@ -16,3 +16,8 @@
   padding-left: 8px;
   padding-right: 8px;
 }
+.row
+{
+  /* don't touch eachother at the bottom */
+  margin-bottom: 8px;
+}

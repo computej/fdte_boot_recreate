@@ -10,7 +10,7 @@
   /* get rid of border radius */
   border-radius: unset;
 }
-.row section.col-7:nth-of-type(1) {
+.row section {
   /* it needs to be a flex container to make the card touch the bottom of the other element in the row */
   display: flex;
 }

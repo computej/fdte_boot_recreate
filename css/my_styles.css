@@ -11,10 +11,44 @@
   border-radius: unset;
 }
 .row section {
-  /* it needs to be a flex container to make the card touch the bottom of the other element in the row */
+  /* it needs to be a flex container to make it look all neat */
   display: flex;
 }
 
+.card .card-body h3 {
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.5ch;
+}
+
+.section-one {
+  background-color: skyblue;
+}
+
+.section-one .card-body h3 {
+  background-color: steelblue;
+ 
+}
+
+.section-two {
+  background-color: lightcoral;
+}
+
+.section-two .card-body h3 {
+  background-color: firebrick;
+}
+
+.section-two .card-body .list-group-item {
+  background-color: transparent;
+} 
+
+.section-three {
+  background-color: palegreen;
+}
+
+.section-three .card-body h3 {
+  background-color: seagreen;
+}
 
 .col-1, .col-2, 
 .col-3, .col-4, 

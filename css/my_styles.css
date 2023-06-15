@@ -27,7 +27,18 @@
 
 .section-one .card-body h3 {
   background-color: steelblue;
- 
+}
+
+.section-one .card-body img {
+  margin-right: 1ch;
+  float: left;
+  width: 33.333333%;
+}
+
+.section-one .card-body:nth-of-type(2) img {
+  margin-right: unset;
+  margin-left: 1ch;
+  float: right;
 }
 
 .section-two {
@@ -42,12 +53,29 @@
   background-color: transparent;
 } 
 
+.section-two .card-body img {
+  margin-left: 1ch;
+  float: right;
+  width: 45%
+}
+
+.section-two .card-body:nth-of-type(2) img {
+  margin-left: unset;
+  margin-right: 1ch;
+  float: left;
+}
+
 .section-three {
   background-color: palegreen;
 }
 
 .section-three .card-body h3 {
   background-color: seagreen;
+}
+
+.section-three .card-body img {
+  float: left;
+  margin-right: 1ch;
 }
 
 .col-1, .col-2, 
@@ -61,6 +89,7 @@
   padding-left: 8px;
   padding-right: 8px;
 }
+
 .row {
   /* don't touch eachother at the bottom */
   margin-bottom: 8px;

@@ -6,10 +6,12 @@
   max-width: 10rem;
   float: left;
 }
+
 .card, .jumbotron {
   /* get rid of border radius */
   border-radius: unset;
 }
+
 .row section {
   /* it needs to be a flex container to make it look all neat */
   display: flex;
